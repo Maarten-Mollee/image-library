@@ -1,0 +1,75 @@
+.paginator{
+    text-align: center;
+    /* margin: auto;
+    width: 70%; */
+    /* position: absolute; */
+    padding: 20px;
+}
+
+.pagination{
+    margin: 10px 3px 0;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagination a{
+    padding: 6px 11px 6px;
+    border: solid 1px #bfbfbf;
+    text-decoration: none;
+    color: blue;
+}
+
+.all_tags_per_page{
+    margin: auto;
+    width: 66%;
+    align-items: center;
+}
+
+.all_tags_per_page ul{
+    list-style-type: none;
+    column-count: 5;
+    width: 1250px;
+    text-align: left;
+}
+
+.tag a{
+color: blue;
+}
+
+.artist a{
+color: #b30000;
+}
+
+.character_name a{
+color: green;
+}
+
+.copyright a{
+color: purple;
+}
+
+.uploader a{
+color: orangered;
+}
+
+.world a{
+color:rgb(0, 150, 155) ;
+}
+
+p{
+    text-align: center;
+}
+
+.delete_tags{
+    text-align: center;
+}
+
+.delete_tags a{
+    background-color: grey;
+    padding:  7px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: monospace;
+}

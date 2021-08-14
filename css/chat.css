@@ -1,0 +1,47 @@
+.chatbox{
+    height: 600px;
+    width: 400px;
+    border: black solid 2px;
+    border-radius: 20px;
+    background-color: lightgray;
+    margin: 40px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.messagebox{
+    margin: 10px;
+    background-color: #3399ff;
+    border-radius: 20px;
+    height: 26px;
+    text-align: left;
+}
+
+
+.message{
+    margin: 4px;
+    position: absolute;
+}
+
+.form{
+    float: bottom;
+    margin-left: 10px;
+    margin-top: 480px;
+    position: fixed;
+}
+
+.textfield{
+    border-radius: 20px 0 0 20px;
+    height: 26px;
+    width: 325px;
+    border: 1px;
+
+}
+
+.submit{
+    border-radius: 0 20px 20px 0;
+    height: 26px;
+    width: 50px;
+    background-color: teal;
+    border: 1px;
+}
